@@ -1,7 +1,7 @@
-2016-08-24 23:59:08,162 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
-2016-08-24 23:59:08,278 [pool-4-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
-2016-08-24 23:59:08,291 [main] ERROR o.e.r.i.r.repo.ModelRepositoryIndex - Failed to open search index.
-org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.apache.lucene.store.MMapDirectory@C:\Users\gazi\JAVA\.metadata\.plugins\org.eclipse.recommenders.rcp\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@9fd5dd0: files: []
+2016-08-28 12:16:10,503 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2016-08-28 12:16:11,034 [pool-5-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2016-08-28 12:16:11,112 [main] ERROR o.e.r.i.r.repo.ModelRepositoryIndex - Failed to open search index.
+org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.apache.lucene.store.MMapDirectory@C:\Users\gazi\JAVA\.metadata\.plugins\org.eclipse.recommenders.rcp\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@679886ad: files: []
 	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:712) ~[org.apache.lucene.core_3.5.0.v20120725-1805.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
 	at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:75) ~[org.apache.lucene.core_3.5.0.v20120725-1805.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
 	at org.apache.lucene.index.IndexReader.open(IndexReader.java:462) ~[org.apache.lucene.core_3.5.0.v20120725-1805.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
@@ -73,4 +73,4 @@ org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.a
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1450) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
-2016-08-24 23:59:08,923 [pool-8-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2016-08-28 12:16:12,891 [pool-8-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
