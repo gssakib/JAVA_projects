@@ -5,8 +5,9 @@
     "error": "No class path info available for \u0027C:\\Users\\gazi\\JAVA\\demo\u0027. Skipped."
   },
   "C:\\Program Files\\Java\\jdk\\jre\\lib\\rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
     "location": "C:\\Program Files\\Java\\jdk\\jre\\lib\\rt.jar",
-    "status": "UNRESOLVED",
+    "status": "RESOLVED",
     "error": "No call model found for \u0027C:\\Program Files\\Java\\jdk\\jre\\lib\\rt.jar\u0027. Neither fingerprint \u00271fcf80266328a4d3423cdb5871c498d7d3d6b8ca\u0027 nor symbolic name \u0027jre\u0027 are known."
   }
 }
