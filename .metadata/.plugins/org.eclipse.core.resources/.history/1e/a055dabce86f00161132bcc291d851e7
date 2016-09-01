@@ -1,0 +1,17 @@
+package demo;
+
+import java.util.*;
+
+public class SalesTax {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter Purchase amount: ");
+		
+		
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}
