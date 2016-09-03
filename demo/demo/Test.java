@@ -113,13 +113,19 @@ public class Test {
 		System.out.println("i is " + i);
 		
 	*/
-		double amount = 5;
-		System.out.println(amount / 2);
-		System.out.println(5 / 2);
+		//double amount = 5;
+		//System.out.println(amount / 2);
 		
-		
-		
-		
+		//float x = 9.0;
+		String sentence = "A statement" ;
+	
+	    System.out.println("charAt(6) is " + sentence.charAt(6));
+		 
+	   // System.out.println(sentence.toUpperCase());
+	    System.out.println(sentence.substring(9) );
+
+	    // Compute average
+	    
 		
 	
 	

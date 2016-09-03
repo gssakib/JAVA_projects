@@ -1,0 +1,38 @@
+package demo;
+import java.util.*;
+
+public class ComputeChange {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		double amount = input.nextDouble();
+		
+		double totalCents = amount * 100;
+		double dollars = totalCents / 100;
+		
+		double remainingCents_1 = totalCents % 100;
+		double quarters = remainingCents_1 / 25;
+		
+		double remainingCents_2 = quarters % 25;
+		double dimes = remainingCents_2 / 10;
+		
+		double remainingCents_3 = dimes % 10;
+		double nickles = remainingCents_3 / 5;
+		
+		double pennies = nickles % 5;
+		
+		System.out.println("dollars :" + (int)dollars);
+		System.out.println("quarters :" + (int)quarters);
+		System.out.println("dimes :" + (int)dimes);
+		System.out.println("nickles :" + (int)nickles);
+		System.out.println("pennies :" + (int)pennies);
+		
+		
+		
+		
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}
