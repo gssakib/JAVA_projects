@@ -1,0 +1,17 @@
+package demo;
+import javax.swing.JOptionPane;
+
+public class TipsAndChange {
+
+	public static void main(String[] args) {
+		
+		String input = JOptionPane.showInputDialog(null,"Please enter an integer:","ShowLogicErrors", JOptionPane.QUESTION_MESSAGE);
+		int price = Integer.parseInt(input);
+		
+		
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package demo;
+import javax.swing.JOptionPane;
+
+public class TipsAndChange {
+
+	public static void main(String[] args) {
+		
+		String input = JOptionPane.showInputDialog(null,"Please enter an integer:","ShowLogicErrors", JOptionPane.QUESTION_MESSAGE);
+		double price = Double.parseDouble(input);
+		double tip = 0.0;
+		
+		if(price < 30.0){
+			tip = 5.0;
+		}else{
+			tip = 0.15 * price;
+		}
+		
+		double total = price + tip;
+		System.out.println(total);
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}
