@@ -5,7 +5,7 @@ public class TipsAndChange {
 
 	public static void main(String[] args) {
 		
-		String input = JOptionPane.showInputDialog(null,"Please enter the price:","Input Box", JOptionPane.QUESTION_MESSAGE);
+		String input = JOptionPane.showInputDialog(null,"Please enter an integer:","Input Box", JOptionPane.QUESTION_MESSAGE);
 		double price = Double.parseDouble(input);
 		double tip = 0.0;
 		

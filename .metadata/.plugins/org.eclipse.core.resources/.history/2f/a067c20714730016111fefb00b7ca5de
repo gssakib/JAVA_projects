@@ -5,7 +5,7 @@ public class TipsAndChange {
 
 	public static void main(String[] args) {
 		
-		String input = JOptionPane.showInputDialog(null,"Please enter the price:","Input Box", JOptionPane.QUESTION_MESSAGE);
+		String input = JOptionPane.showInputDialog(null,"Please enter an integer:","Input Box", JOptionPane.QUESTION_MESSAGE);
 		double price = Double.parseDouble(input);
 		double tip = 0.0;
 		
@@ -68,28 +68,28 @@ public class TipsAndChange {
 			double pennies = remainingCents;
 			
 			
-			if ((int)twenties != 0){
+			if (twenties != 0){
 				System.out.println("twenties: " + (int)twenties);
 			}
-			if ((int)tens != 0){
+			if (tens != 0){
 				System.out.println("tens: " + (int)tens);
 			}
-			if((int)fives !=0){
+			if(fives !=0){
 				System.out.println("fives: " + (int)fives);
 			}
-			if((int)ones != 0){
+			if(ones != 0){
 				System.out.println("ones: " + (int)ones);
 			}
-			if((int)quarters != 0){
+			if(quarters != 0){
 				System.out.println("quarters: " + (int)quarters);
 			}
-			if((int)dimes != 0){
+			if(dimes != 0){
 				System.out.println("dimes: " + (int)dimes);
 			}
-			if((int)nickels != 0){
+			if(nickels != 0){
 				System.out.println("nickels: " + (int)nickels);
 			}
-			if((int)pennies != 0){
+			if(pennies != 0){
 				System.out.println("pennies: " + (int)pennies);
 			}
 			
@@ -153,31 +153,31 @@ public class TipsAndChange {
 			double pennies = remainingCents;
 		
 			
-			if ((int)twenties != 0){
+			
+			if (twenties != 0){
 				System.out.println("twenties: " + (int)twenties);
 			}
-			if ((int)tens != 0){
+			if (tens != 0){
 				System.out.println("tens: " + (int)tens);
 			}
-			if((int)fives !=0){
+			if(fives !=0){
 				System.out.println("fives: " + (int)fives);
 			}
-			if((int)ones != 0){
+			if(ones != 0){
 				System.out.println("ones: " + (int)ones);
 			}
-			if((int)quarters != 0){
+			if(quarters != 0){
 				System.out.println("quarters: " + (int)quarters);
 			}
-			if((int)dimes != 0){
+			if(dimes != 0){
 				System.out.println("dimes: " + (int)dimes);
 			}
-			if((int)nickels != 0){
+			if(nickels != 0){
 				System.out.println("nickels: " + (int)nickels);
 			}
-			if((int)pennies != 0){
+			if(pennies != 0){
 				System.out.println("pennies: " + (int)pennies);
 			}
-			
 		
 		
 		

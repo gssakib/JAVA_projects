@@ -5,7 +5,7 @@ public class TipsAndChange {
 
 	public static void main(String[] args) {
 		
-		String input = JOptionPane.showInputDialog(null,"Please enter the price:","Input Box", JOptionPane.QUESTION_MESSAGE);
+		String input = JOptionPane.showInputDialog(null,"Please enter an integer:","Input Box", JOptionPane.QUESTION_MESSAGE);
 		double price = Double.parseDouble(input);
 		double tip = 0.0;
 		
@@ -13,12 +13,11 @@ public class TipsAndChange {
 			tip = 5.0;
 			
 			double total = price + tip;
-			System.out.println("The total amount to be paid is: " + total + " dollars");
+			System.out.println("The total amount to be paid is: " + total);
 			
 			
 			input = JOptionPane.showInputDialog(null,"Please enter the amount you wish to pay: ","Input Box", JOptionPane.QUESTION_MESSAGE);
 			double payment = Double.parseDouble(input);
-			System.out.println("The user paid: " +  payment + " dollars" );
 			double computedChange = 0.0;
 			
 			while(payment < total){
@@ -30,7 +29,7 @@ public class TipsAndChange {
 			}
 			
 			computedChange = payment - total;
-			System.out.println("The computed change is: " + computedChange + " dollars");
+			System.out.println(computedChange);
 			//System.out.println(computedChange);
 			double totalCents = Math.round(computedChange * 100.0);
 			
@@ -68,31 +67,14 @@ public class TipsAndChange {
 			double pennies = remainingCents;
 			
 			
-			if ((int)twenties != 0){
-				System.out.println("twenties: " + (int)twenties);
-			}
-			if ((int)tens != 0){
-				System.out.println("tens: " + (int)tens);
-			}
-			if((int)fives !=0){
-				System.out.println("fives: " + (int)fives);
-			}
-			if((int)ones != 0){
-				System.out.println("ones: " + (int)ones);
-			}
-			if((int)quarters != 0){
-				System.out.println("quarters: " + (int)quarters);
-			}
-			if((int)dimes != 0){
-				System.out.println("dimes: " + (int)dimes);
-			}
-			if((int)nickels != 0){
-				System.out.println("nickels: " + (int)nickels);
-			}
-			if((int)pennies != 0){
-				System.out.println("pennies: " + (int)pennies);
-			}
-			
+			System.out.println("twenties: " + (int)twenties);
+			System.out.println("tens: " + (int)tens);
+			System.out.println("fives: " + (int)fives);
+			System.out.println("ones: " + (int)ones);
+			System.out.println("quarters: " + (int)quarters);
+			System.out.println("dimes: " + (int)dimes);
+			System.out.println("nickels: " + (int)nickels);
+			System.out.println("pennies: " + (int)pennies);
 			
 			
 			
@@ -106,7 +88,6 @@ public class TipsAndChange {
 			
 			input = JOptionPane.showInputDialog(null,"Please enter the amount you wish to pay: ","Input Box", JOptionPane.QUESTION_MESSAGE);
 			double payment = Double.parseDouble(input);
-			System.out.println("The user paid: " +  payment + " dollars" );
 			double computedChange = 0.0;
 			while(payment < total){
 				
@@ -116,7 +97,7 @@ public class TipsAndChange {
 			
 			}
 			computedChange = payment - total;
-			System.out.println("The computed change is: " + computedChange + " dollars");
+			System.out.println(computedChange);
 			double totalCents = Math.round(computedChange * 100.0);
 			
 			// calculating no. of twenty dollar bills 
@@ -153,31 +134,15 @@ public class TipsAndChange {
 			double pennies = remainingCents;
 		
 			
-			if ((int)twenties != 0){
-				System.out.println("twenties: " + (int)twenties);
-			}
-			if ((int)tens != 0){
-				System.out.println("tens: " + (int)tens);
-			}
-			if((int)fives !=0){
-				System.out.println("fives: " + (int)fives);
-			}
-			if((int)ones != 0){
-				System.out.println("ones: " + (int)ones);
-			}
-			if((int)quarters != 0){
-				System.out.println("quarters: " + (int)quarters);
-			}
-			if((int)dimes != 0){
-				System.out.println("dimes: " + (int)dimes);
-			}
-			if((int)nickels != 0){
-				System.out.println("nickels: " + (int)nickels);
-			}
-			if((int)pennies != 0){
-				System.out.println("pennies: " + (int)pennies);
-			}
 			
+			System.out.println("twenties: " + (int)twenties);
+			System.out.println("tens: " + (int)tens);
+			System.out.println("fives: " + (int)fives);
+			System.out.println("ones: " + (int)ones);
+			System.out.println("quarters: " + (int)quarters);
+			System.out.println("dimes: " + (int)dimes);
+			System.out.println("nickels: " + (int)nickels);
+			System.out.println("pennies: " + (int)pennies);
 		
 		
 		
