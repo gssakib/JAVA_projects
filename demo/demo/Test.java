@@ -136,15 +136,15 @@ public class Test {
 	*/
 		
 		// Prompt the user to enter a number
-		 String input = JOptionPane.showInputDialog(null,"Please enter an integer:","ShowLogicErrors", JOptionPane.QUESTION_MESSAGE);
-		 int number = Integer.parseInt(input);
+		 //String input = JOptionPane.showInputDialog(null,"Please enter an integer:","ShowLogicErrors", JOptionPane.QUESTION_MESSAGE);
+		 //int number = Integer.parseInt(input);
 		 // Display the result
-		 System.out.println("The number is between 1 and 100, inclusively? " + ((1 < number) && (number < 100)));
+		 //System.out.println("The number is between 1 and 100, inclusively? " + ((1 < number) && (number < 100)));
 		 
-		 System.exit(0);
-
+		 //System.exit(0);
+		System.out.println(/* 5 + 3 */ - 9 + 6/*8*//2 ) ;//*+4*/ -10
 		
-		
+		 
 		
 
 		 

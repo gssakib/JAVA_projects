@@ -1,0 +1,16 @@
+package demo;
+import java.util.Scanner;
+import javax.swing.JOptionPane;
+
+public class Tips {
+
+	public static void main(String[] args) {
+		
+		//String input = JOptionPane.showInputDialog(null,"Please enter the price:","Input Box", JOptionPane.QUESTION_MESSAGE);
+		//double price = Double.parseDouble(input);
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

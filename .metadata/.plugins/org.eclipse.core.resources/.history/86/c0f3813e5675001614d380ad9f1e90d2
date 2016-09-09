@@ -1,0 +1,21 @@
+package demo;
+import java.util.*;
+
+public class Cylinder {
+
+	public static void main(String[] args) {
+		
+		Scanner in = new Scanner(System.in);
+		System.out.println("Enter radius: ");
+		double radius = in.nextDouble();
+		System.out.println("Enter length: ");
+		double length = in.nextDouble();
+		
+		double area = (Math.pow(radius, 2)) * Math.PI;
+		double volume = area*length;
+		System.out.println("The are is: "+ area + "The volume is: " + volume);
+		// TODO Auto-generated method stub
+
+	}
+
+}
