@@ -142,21 +142,10 @@ public class Test {
 		 //System.out.println("The number is between 1 and 100, inclusively? " + ((1 < number) && (number < 100)));
 		 
 		 //System.exit(0);
+		System.out.println(/* 5 + 3 */ - 9 + 6/*8*//2 ) ;//*+4*/ -10
 		
-		Scanner in = new Scanner(System.in);
+		 
 		
-		System.out.print("Input score: ");
-		double score = in.nextDouble();
-		
-		System.out.print("Input pay: ");
-		double pay = in.nextDouble();
-		
-		 if (score > 90){
-			 pay = 1.03 * pay ;
-		 }
-		
-		System.out.println("pay: " + pay);
-		System.out.println("score: " + score);
 
 		 
 		 

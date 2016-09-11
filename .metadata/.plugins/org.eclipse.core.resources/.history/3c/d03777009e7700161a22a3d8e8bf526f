@@ -145,18 +145,18 @@ public class Test {
 		
 		Scanner in = new Scanner(System.in);
 		
-		System.out.print("Input score: ");
-		double score = in.nextDouble();
+		System.out.print("Input x: ");
+		double x = in.nextDouble();
 		
-		System.out.print("Input pay: ");
-		double pay = in.nextDouble();
+		System.out.print("Input y: ");
+		double y = in.nextDouble();
 		
-		 if (score > 90){
-			 pay = 1.03 * pay ;
+		 if (y > 0){
+			 x = 1;
 		 }
 		
-		System.out.println("pay: " + pay);
-		System.out.println("score: " + score);
+		System.out.println("x: " + x);
+		System.out.println("y: " + y);
 
 		 
 		 

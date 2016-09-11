@@ -13,18 +13,14 @@ public class CurrentTime {
 		long totalMinutes = totalSeconds / 60;
 		long currentMinutes = totalMinutes % 60;
 		
-		long totalHourOffset = (totalMinutes / 60) + offset;
-		long currentHourOffset = totalHourOffset % 24;
-		
-		long totalHourGreen = (totalMinutes / 60);
-		long currentHourGreen = totalHourGreen % 24;
+		long totalHour = (totalMinutes / 60) + offset;
+		long currentHour = totalHour % 24;
 		
 		//double totalDays = totalHour / 24;
 		
 		
 	 
-		System.out.println("The current time in GMT format at Greenwich is: " + currentHourGreen+ ":" + currentMinutes+":" + currentSeconds);
-		System.out.println("The current time in GMT format at offset location is: " + currentHourOffset+ ":" + currentMinutes+":" + currentSeconds);
+		System.out.println("The current time in GMT format is: " + currentHour+ ":" + currentMinutes+":" + currentSeconds);
 		
 		//System.out.println("Total no of days: " + totalDays);
 		
