@@ -1,0 +1,20 @@
+package demo;
+import java.util.Scanner;
+
+public class SocialSecurity {
+
+	public static void main(String[] args) {
+		System.out.print("Enter a SSN (in the format, DDD-DDD-DDD): ");
+		Scanner input = new Scanner(System.in); 
+		
+		String social = input.nextLine();
+		
+		char aChar = social.charAt(0);
+		//int aInt = Integer.parseInt(aChar);
+		
+		System.out.println(aChar);
+		//if (aChar ==)
+
+	}
+
+}

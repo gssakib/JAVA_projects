@@ -153,6 +153,8 @@ public class Test {
 		
 		 if (score > 90){
 			 pay = 1.03 * pay ;
+		 }else{
+			 pay = 1.01 *  pay;
 		 }
 		
 		System.out.println("pay: " + pay);

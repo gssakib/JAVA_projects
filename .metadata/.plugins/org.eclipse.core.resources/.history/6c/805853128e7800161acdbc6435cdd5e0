@@ -1,0 +1,39 @@
+package demo;
+import java.util.Scanner;
+
+
+public class SocialSecurity {
+
+	public static void main(String[] args) {
+		System.out.print("Enter a SSN (in the format, DDD-DDD-DDD): ");
+		Scanner input = new Scanner(System.in); 
+		
+		String social = input.nextLine();
+		
+		
+		
+		for (int i = 0 ; i < 12; i ++){
+			char aChar = social.charAt(i);
+			if (aChar != "-".charAt(0)){
+			
+				int aInt = Character.getNumericValue(aChar);
+				if(aInt > 9){
+					System.out.println(social + "is an invalid Social Security Number.");
+				}else{
+					System.out.println(social + "is a valid Social Security Number.");
+				}
+				
+			}
+			
+			
+			
+		}
+		
+		System.out.println(social + " is a valid Social Security Number.");
+		
+		
+		//if (aChar ==)
+
+	}
+
+}
