@@ -10,7 +10,7 @@ public class Tips {
 		//double price = Double.parseDouble(input);
 		
 		Scanner in = new Scanner(System.in);
-		System.out.print("Enter the subtotal: $");
+		System.out.print("Enter the subtotal: ");
 		double subTotal = in.nextDouble();
 		//System.out.print("Enter the gratuity rate(in percentage): ");
 		//double gratuity = (in.nextDouble()) / 100.0 ;

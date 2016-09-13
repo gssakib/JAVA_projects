@@ -41,13 +41,10 @@ public class Test3 {
 		System.out.println("Deductions:");
 		
 		//System.out.println("  Federal Withholding ("+ (float)(federalRate*100.0)  + "%):  $" + (float)federalWidth );
-		System.out.printf("  Federal Withholding (%.1f%%):  $%.2f%n", (federalRate*100),federalWidth);
-		//System.out.println("  State Withholding ("+ (float)(stateRate*100.0)  + "%):  $" + (float)stateWidth );
-		System.out.printf("  State Withholding (%.1f%%):  $%.2f%n",(stateRate*100.0),stateWidth);
-		//System.out.println("  Total Deduction:  $" + (float)totalDeductions); 			   
-		System.out.printf("  Total Deduction:  $%.2f%n", totalDeductions);
-		//System.out.println("Net Pay:   $" + (float)netPay);
-		System.out.printf("  Net Pay:  $%.2f%n", netPay);
+		System.out.printf("  Federal Withholding (%0.2f%%):  $%0.2f", (federalRate*100),federalWidth);
+		System.out.println("  State Withholding ("+ (float)(stateRate*100.0)  + "%):  $" + (float)stateWidth );
+		System.out.println("  Total Deduction:  $" + (float)totalDeductions); 			   
+		System.out.println("Net Pay:   $" + (float)netPay);
 	}
 
 }

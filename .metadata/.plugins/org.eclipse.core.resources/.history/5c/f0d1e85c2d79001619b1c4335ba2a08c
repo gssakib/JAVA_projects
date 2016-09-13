@@ -10,7 +10,7 @@ public class TipsAndChange {
 		double tip = 0.0;
 		
 		if(price < 30.0){
-			tip = 0.0;
+			tip = 5.0;
 			
 			double total = price + tip;
 			//System.out.println("The total amount to be paid is: " + total + " dollars");

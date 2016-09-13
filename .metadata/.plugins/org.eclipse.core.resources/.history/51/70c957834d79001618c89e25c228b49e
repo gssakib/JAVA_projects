@@ -143,8 +143,7 @@ public class Test {
 		 
 		 //System.exit(0);
 		
-		String format = "The current bank interest rate is %6.2f%%.%n";
-        System.out.printf(format, 10f);
+		System.out.printf("hello%%");
 		 
 		 
 		 

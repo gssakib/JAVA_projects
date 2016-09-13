@@ -143,8 +143,23 @@ public class Test {
 		 
 		 //System.exit(0);
 		
-		String format = "The current bank interest rate is %6.2f%%.%n";
-        System.out.printf(format, 10f);
+		Scanner in = new Scanner(System.in);
+		
+		System.out.print("Input score: ");
+		double score = in.nextDouble();
+		
+		System.out.print("Input pay: ");
+		double pay = in.nextDouble();
+		
+		 if (score > 90){
+			 pay = 1.03 * pay ;
+		 }else{
+			 pay = 1.01 *  pay;
+		 }
+		
+		System.out.println("pay: " + pay);
+		System.out.println("score: " + score);
+
 		 
 		 
 		 
