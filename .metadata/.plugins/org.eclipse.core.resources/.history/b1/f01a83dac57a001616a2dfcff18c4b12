@@ -143,17 +143,12 @@ public class Test {
 		 
 		 //System.exit(0);
 		
-		
-		//System.out.println();
+		String format = "The current bank interest rate is %6.2f%%.%n";
+        System.out.printf(format, 10f);
 		 
-		 double min = 1;
-		 double max = 3;
 		 
-		 double n1 = 1;
-		 double n2 = 3;
-		int mid =  (n1 == min && n2 == max) ?  1
-				:0;
-		 System.out.println(mid);
+		 
+		 
 		
 		
 		
