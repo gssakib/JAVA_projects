@@ -30,22 +30,16 @@ public class sorting {
 		
 		if (num3> num1 && num3 > num2){
 			max = num3;
-		}else if (num2 > num3 && num2 > num1 ){
+		}else if (num2 > num3 && num2 > num3 ){
 			max = num2;
 		}else{
 			max = num1;
 		}
 		
 
-		if ((num3 == max && num2 == min)|| (num3 == min && num2 == max)){
-			mid = num1;
-		}else if ((num1 == max && num2 == min)|| (num1 == min && num2 == max)){
-			mid = num3;
-		}else {
-			mid = num2;
-		}	
-			
-		//if ((num1 == max && num3 == min)|| (num1 == min && num3 == max)){
+		
+		
+		
 		
 	
 		System.out.println("The maximum is: " + max);
