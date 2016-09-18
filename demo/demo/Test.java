@@ -1,7 +1,8 @@
 package demo;
 import javax.swing.JOptionPane;
+
 import java.util.*;
- 
+ import java.util.Random;
 
 public class Test {
 
@@ -145,18 +146,24 @@ public class Test {
 		
 		
 		//System.out.println();
-		 
-		 double min = 1;
-		 double max = 3;
-		 
-		 double n1 = 1;
-		 double n2 = 3;
-		int mid =  (n1 == min && n2 == max) ?  1
-				:0;
-		 System.out.println(mid);
+		/* 
+		Scanner in = new Scanner(System.in);
+		System.out.print("Enter income: ");
 		
+		double income = in.nextDouble();
+		double tax = 0;
+		/*
+		if (income <= 10000){
+			tax = income * 0.1;
+			
+		}else if (income <= 20000){
+			tax = 1000 + (income - 10000) * 0.15;
+			
+		}
 		
-		
+		*/
+		System.out.println(Math.round(Math.random()));
+		System.out.println(Math.round(Math.random())== 0 ? 0:1);
 	}
 
 }

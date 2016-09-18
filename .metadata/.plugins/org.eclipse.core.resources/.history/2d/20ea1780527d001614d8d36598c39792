@@ -1,0 +1,26 @@
+package demo;
+
+public class SwitchStatements {
+
+	public static void main(String[] args) {
+		int x = 1;
+		int a = 3;
+		if (a == 1) {
+			x += 5;
+
+		} else if (a == 2) {
+			x += 5;
+
+		} else if (a == 3) {
+
+			x += 5;
+		} else if (a == 4) {
+			x += 5;
+
+		}
+
+		System.out.println(x);
+
+	}
+
+}
