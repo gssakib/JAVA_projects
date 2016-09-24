@@ -1,0 +1,22 @@
+package demo;
+
+public class Kg2lb2kg {
+
+	public static void main(String[] args) {
+		
+		System.out.println("kilograms      Pounds");
+		int j = 0;
+		for(int i = 1; i <= 199; i++){
+			
+			j = i + 19
+			if(i < 10){
+				System.out.println("    " + i+"           " + (float)(i*2.2));
+			}else{
+				System.out.println("    " + i+"          " + (float)(i*2.2));
+			}
+		
+		
+		}
+
+	}
+}

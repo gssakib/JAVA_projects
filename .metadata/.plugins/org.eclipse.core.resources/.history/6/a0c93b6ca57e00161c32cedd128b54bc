@@ -1,0 +1,20 @@
+package demo;
+import java.util.Scanner;
+
+
+public class Tax {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		System.out.print("Employee’s name (e.g., Smith): ");
+		String name = in.nextLine();
+		
+		System.out.print("Number of hours worked in a week (e.g., 10): ");
+		double hoursWorked = in.nextDouble();
+		
+		
+
+	}
+
+}
