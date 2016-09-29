@@ -1,0 +1,20 @@
+package demo;
+import java.util.Scanner;
+
+public class Test2{
+	public static void main(String[] args){
+		
+		Scanner stdin = new Scanner(System.in);
+		int count = 0;
+		while(stdin.hasNext()){
+			//System.out.println("foobar");
+		   stdin.nextLine();
+		   count++;
+		   System.out.println(count);
+		}
+		
+		
+	}
+	
+
+}

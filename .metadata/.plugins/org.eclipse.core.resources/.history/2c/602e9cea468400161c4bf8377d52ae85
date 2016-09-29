@@ -1,0 +1,29 @@
+package demo;
+import java.util.Scanner;
+
+public class Test2{
+	public static void main(String[] args){
+		
+		Scanner input = new Scanner(System.in);
+		int longest = 0;
+		int count = 0;
+		while(input.hasNext()){
+			
+			
+			if((input.nextLine()).length() >= longest ){
+				count++;
+				longest = (input.nextLine()).length() ;
+				System.out.println(count);
+			}	
+			
+
+
+		}
+		   
+		}
+		
+		
+	}
+	
+
+

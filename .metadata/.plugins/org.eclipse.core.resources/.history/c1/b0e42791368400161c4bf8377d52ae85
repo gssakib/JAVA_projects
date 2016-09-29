@@ -1,0 +1,18 @@
+package demo;
+import java.util.Scanner;
+
+public class Test2{
+	public static void main(String[] args){
+		Scanner stdin = new Scanner(System.in);
+		int n; 	
+		System.out.println("enter no: ");
+		n = stdin.nextInt();
+
+		while(n <= 10 || n >= 1){
+
+			n = stdin.nextInt();
+
+		}
+
+}
+}

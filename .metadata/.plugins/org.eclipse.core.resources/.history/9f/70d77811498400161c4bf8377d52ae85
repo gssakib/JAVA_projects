@@ -1,0 +1,49 @@
+package demo;
+import java.util.Scanner;
+
+public class Test2{
+	public static void main(String[] args){
+		Scanner stdin  = new Scanner(System.in);
+		System.out.print("Enter string: ");
+		String str = stdin.nextLine();
+		int landCount = 0;
+		int airCount = 0;
+		int waterCount = 0;
+		
+		Scanner input = new Scanner(System.in);
+		while( str.length() != 5 && str.substring(0,1) != "x" && str.substring(1,2) != "x" && str.substring(2,3) != "x" && str.substring(3,4) != "x" && str.substring(4,5) != "x" ){
+
+			if(str.length() == 4 && str.substring(0,1) == "l" && str.substring(1,2) == "a" && str.substring(2,3) == "n" && str.substring(3,4) == "d"){
+				landCount ++;
+				
+			}else if (str.length() == 3 && str.substring(0,1) == "a" &&str.substring(1,2) == "i" &&str.substring(2,3) == "r"){
+			
+				airCount++;
+			}else if(str.length()== 4 && str.substring(0,1) == "w" &&str.substring(0,1) == "a" &&str.substring(1,2) == "t" &&str.substring(2,3) == "e" &&str.substring(3,4) == "r" ){
+				
+				waterCount++;
+			}
+			
+
+
+		System.out.print("Enter string: ");
+		str = stdin.nextLine();
+
+
+		}
+
+		System.out.println("land" +landCount );
+		System.out.println("air" +airCount );
+		System.out.println("water" +waterCount );
+			
+
+
+		}
+		   
+		}
+		
+		
+	
+	
+
+

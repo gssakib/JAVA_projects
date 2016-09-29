@@ -1,0 +1,16 @@
+package demo;
+import java.util.Scanner;
+
+public class Test2{
+	public static void main(String[] args){
+		int k = 0;
+		int total =0;
+		int n =3;
+		while(k < n){
+			total = (int) (total + Math.pow(k,3));
+
+		}
+			
+	}
+
+}

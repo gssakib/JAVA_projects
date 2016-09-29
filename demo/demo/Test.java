@@ -125,37 +125,13 @@ public class Test {
 		// System.exit(0);
 
 		// System.out.println();
-		/*
-		 * Scanner in = new Scanner(System.in);
-		 * System.out.print("Enter income: ");
-		 * 
-		 * double income = in.nextDouble(); double tax = 0; /* if (income <=
-		 * 10000){ tax = income * 0.1;
-		 * 
-		 * }else if (income <= 20000){ tax = 1000 + (income - 10000) * 0.15;
-		 * 
-		 * }
-		 */
-		String fullName = "Gazi, Sakib";
-		String firstName, lastName;
+		double[] bases = new double[10];
 		
-		
-		//System.out.println( sentence.indexOf("is"));
-		String[] output = fullName.split(" ");
-		if (output[0].substring((output[0].length() -1), output[0].length()).equals(",")){
-			firstName = output[1];
-			String[] output_2 = fullName.split(",");
-			lastName = output_2[0];
-			
-		}else{
-			firstName = output[0];
-			lastName = output[1];
-
-		}
-		
-		System.out.println(firstName);
-		System.out.println(lastName);
-
-	}
+		bases[0] = 34;
+		bases[1] = 45;
+		System.out.println("A" + "Z");
 
 }
+	}
+
+

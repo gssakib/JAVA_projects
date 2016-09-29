@@ -1,0 +1,24 @@
+package demo;
+
+public class ReverseInt {
+
+	public static void main(String[] args) {
+		
+		
+		
+		reverse(34);
+		
+		
+		
+		
+		
+		
+		public static void reverse(int nummber){
+			String numStrng = Integer.toString(number);
+			System.out.println(numStrng);
+			
+			
+		}
+	}
+
+}
