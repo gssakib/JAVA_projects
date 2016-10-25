@@ -1,0 +1,49 @@
+package demo;
+
+public class pyramid {
+
+	public static void main(String[] args) {
+		
+		Pyramid(9, '#');
+		
+	}
+	
+	public static void Pyramid(int base, char sym){
+		int space = 0;
+		/*
+		for(int j = 0; j < base; j+=2){
+			
+			for(int k = 0; k< space; k++){
+				System.out.print(' ');
+			}
+			space++;
+			for(int i = 0; i < (base - j); i++){
+				
+				System.out.print(sym);
+			}
+			
+			System.out.println();
+		
+		}
+		*/
+		
+		
+		for(int j = base; j > 0; j-=2){
+			
+			
+			for(int i = (base - j); i > 0 ; i--){
+				
+				System.out.print(sym);
+			}
+			
+			System.out.println();
+		
+		}
+		
+		
+		
+		
+		
+	}
+
+}
