@@ -1,0 +1,4 @@
+String.valueOf(); \\character to string 
+Integer.toString() ;\\integer to string 
+
+Integer.parseInt(); \\ String to int
